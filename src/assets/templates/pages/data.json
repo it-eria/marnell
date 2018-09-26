@@ -1,0 +1,55 @@
+{
+  "p-index": {
+    "head": {
+      "title": "Home"
+    },
+    "org-marnell-studio": {
+      "mol-marnell-home-title": {
+        "title": "We are Studio Marnell"
+      }
+    },
+    "org-marnell-info": {
+      "mol-marnell-info-title": {
+        "title": "Studio Marnel"
+      },
+      "mol-marnell-info-description": [
+        {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ],
+      "marnell-menu": [
+        {
+          "link": "Menu",
+          "scrollTo": "#menu"
+        },
+        {
+          "link": "Portfolio",
+          "scrollTo": "#portfolio"
+        },
+        {
+          "link": "Contact",
+          "scrollTo": "#contact"
+        }
+      ]
+    },
+    "org-project": {
+      "mol-project-content": {
+        "description": "Design, Development, WordPress CMS",
+        "title": "Project Title Here"
+      }
+    },
+    "org-lets-work":true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true,
+        "one-page-scroll": false
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/aos.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap-theme.min.css">
+    <title>Home</title>
+</head>
+
+<body class="">
+    <section class="marnell-studio">
+        <div class="container">
+            <div class="marnell-studio__main">
+                <div class="marnell-studio__main__title">
+                    <h2>We are Studio Marnell</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="marnell-info">
+        <div class="container">
+            <div class="marnell-info__content">
+                <div class="marnell-info__content__quote col-1 col-md-1 col-lg-1">
+                    <p>Studio Marnel</p>
+                </div>
+                <div class="marnell-info__content__description col-8 col-md-8 col-lg-8">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+
+
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+
+                </div>
+
+
+                <div class="marnell-info__content__menu-block col-2 col-md-2 col-lg-2">
+
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="project" style="background-image:url(assets/img/sea.jpg);">
+        <div class="container">
+            <div class="project__main">
+
+                <div class="project__main__content">
+                    <p>Design, Development, WordPress CMS</p>
+
+                    <h2>Project Title Here</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <!-- <div class="container"> -->
+        <div class="work__main">
+            <div class="work__main__info col-12 col-md-6 col-lg-6">
+                <div class="work__main__info__content">
+                    <h2>Let’s work together.
+                    </h2>
+                    <p>We specialize in design and development for creatives, agencies, </p>
+
+                </div>
+                <div class="work__main__info__footer d-flex flex-column">
+                    <a href="#">info@studiomarnell.com</a>
+                    <a href="#">tel. 762 354 0376</a>
+                </div>
+                <div class="work__main__info__copyright">
+                    <p>2011 — Forever © Studio Marnell</p>
+                </div>
+            </div>
+            <div class="work__main__image col-12 col-md-6 col-lg-6"></div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- Jquery -->
+    <script src="assets/js/vendors/jquery-3.3.1.js"></script>
+    <!-- Slick slider -->
+    <script src="assets/js/vendors/slick.min.js"></script>
+    <!-- Animate on scroll -->
+    <script src="assets/js/vendors/aos.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/vendors/bootstrap.js"></script>
+
+
+
+
+    <!-- Custom script -->
+    <script src="assets/js/script.min.js"></script>
+    <script>
+        $(".scrollTo").on('click', function(e) {
+            e.preventDefault();
+            var current = $(this).parent();
+            $('html, body').animate({
+                scrollTop: current.offset().top + current.outerHeight()
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
